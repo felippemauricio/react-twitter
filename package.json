@@ -1,13 +1,37 @@
 {
   "name": "react-twitter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple project built with react and server-side-rendering",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felippemauricio/react-twitter.git"
+  },
+  "keywords": [
+    "heroku",
+    "react",
+    "react-context",
+    "react-hooks",
+    "server-side-rendering",
+    "styled-components",
+    "travis-ci",
+    "twitter"
+  ],
+  "author": {
+    "name": "Felippe Maurício",
+    "email": "felippemauriciov@gmail.com",
+    "url": "https://github.com/felippemauricio"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felippemauricio/react-twitter/issues"
+  },
+  "homepage": "https://github.com/felippemauricio/react-twitter#readme",
   "dependencies": {
     "next": "^8.1.0",
     "react": "^16.8.6",
