@@ -13,6 +13,7 @@
     "url": "git+https://github.com/felippemauricio/react-twitter.git"
   },
   "keywords": [
+    "docker",
     "heroku",
     "react",
     "react-context",
