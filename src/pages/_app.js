@@ -5,12 +5,12 @@ import Theme from '../theme';
 
 
 class CustomNextApp extends App {
-  static async getInitialProps ({ Component, ctx }) {
+  static async getInitialProps({ Component, ctx }) {
     const pageProps = Component.getInitialProps ? await Component.getInitialProps(ctx) : {};
     return { pageProps };
   }
 
-  render () {
+  render() {
     const { Component, pageProps } = this.props;
     return (
       <Container>

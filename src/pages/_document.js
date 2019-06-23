@@ -4,7 +4,7 @@ import { ServerStyleSheet } from 'styled-components';
 
 
 class CustomNextDocument extends Document {
-  static async getInitialProps (ctx) {
+  static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
 
@@ -21,8 +21,8 @@ class CustomNextDocument extends Document {
             {initialProps.styles}
             {sheet.getStyleElement()}
           </Fragment>
-        )
-      }
+        ),
+      };
     } finally {
       sheet.seal();
     }
