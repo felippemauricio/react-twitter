@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+  - "11.9.0"
+
+cache:
+  yarn: true
+
+stages:
+  - lint
+
+jobs:
+  include:
+
+    - stage: lint
+      script:
+        - yarn lint
