@@ -10,6 +10,6 @@ module.exports = {
         displayName: true,
         preprocess: false,
       }
-    ]
+    ],
   ]
 }

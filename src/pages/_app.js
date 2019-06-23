@@ -1,13 +1,7 @@
 import App, { Container } from 'next/app';
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-
-
-const Theme = {
-  colors: {
-    primary: '#0070f3'
-  }
-};
+import Theme from '../theme';
 
 
 class CustomNextApp extends App {
